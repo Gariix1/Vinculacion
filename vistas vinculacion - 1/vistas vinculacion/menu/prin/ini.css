@@ -1,0 +1,33 @@
+body{
+    background: rgb(58,165,180);
+    background: linear-gradient(90deg, rgba(58,165,180,1) 0%, rgba(29,207,253,1) 54%, rgba(69,248,252,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+h1{
+    text-align: center;
+    background: rgb(58,165,180);
+    background: linear-gradient(90deg, rgba(58,165,180,1) 0%, rgba(253,29,124,1) 54%, rgba(69,248,252,1) 100%);
+}
+main{
+    width: 730px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+}
+.tarjetas{
+    padding: 0 20px 20px 20px;
+    border-radius: 8px;
+}
+.button{
+    height: 170px;
+    width: 170px;
+    font-size: 40px;
+    padding: 0 20px 20px 20px;
+    background-image: url(pi.jpg);
+    font-weight: bold;
+}
+.button:hover{
+    cursor: pointer;
+    color: aqua;
+}
